@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary meta -->
+  <title>Dionisio Romero — Finance Professional & Tulane B.S. Candidate</title>
+  <meta name="description" content="Dionisio Romero is a finance professional completing a B.S. in Finance at Tulane University while working full-time as a financial analyst in aviation — experienced across operations, treasury, accounting, and ERP implementation." />
+  <meta name="author" content="Dionisio Romero" />
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#12150f" media="(prefers-color-scheme: dark)" />
+
+  <!-- Canonical — update if you use a custom domain -->
+  <link rel="canonical" href="https://dromertulane.github.io/portfolio/" />
+
+  <!-- Open Graph (social share previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Dionisio Romero" />
+  <meta property="og:title" content="Dionisio Romero — Finance Professional & Tulane B.S. Candidate" />
+  <meta property="og:description" content="A finance professional turning complex, detail-heavy problems into clear, confident decisions — across operations, treasury, accounting, and ERP implementation in the aviation industry." />
+  <meta property="og:url" content="https://dromertulane.github.io/portfolio/" />
+  <meta property="og:image" content="https://dromertulane.github.io/portfolio/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Dionisio Romero — Finance professional and Tulane B.S. in Finance candidate." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dionisio Romero — Finance Professional & Tulane B.S. Candidate" />
+  <meta name="twitter:description" content="A finance professional turning complex, detail-heavy problems into clear, confident decisions — across operations, treasury, accounting, and ERP implementation." />
+  <meta name="twitter:image" content="https://dromertulane.github.io/portfolio/assets/og-image.png" />
+  <meta name="twitter:image:alt" content="Dionisio Romero — Finance professional and Tulane B.S. in Finance candidate." />
+
+  <!-- Icons -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Fonts: characterful display serif (Fraunces) + clean body sans (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,400..500&family=Inter:wght@400;500;600;700&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Set theme before paint to avoid a flash of the wrong palette -->
+  <script>
+    (function () {
+      var de = document.documentElement;
+      // Signal JS is active so scroll-reveal can hide content; without this
+      // class everything stays fully visible (no-JS / failure safe).
+      de.classList.remove("no-js");
+      de.classList.add("js");
+      try {
+        var stored = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = stored || (prefersDark ? "dark" : "light");
+        de.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Dionisio Romero — back to top">
+        <span class="brand-mark" aria-hidden="true">DR</span>
+        <span class="brand-name">Dionisio Romero</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="navMenu"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="nav-cta-item">
+            <a class="btn btn-primary btn-small" href="#contact">Get in touch</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" title="Toggle light / dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6" />
+          <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+            <line x1="12" y1="2.5" x2="12" y2="5" /><line x1="12" y1="19" x2="12" y2="21.5" />
+            <line x1="2.5" y1="12" x2="5" y2="12" /><line x1="19" y1="12" x2="21.5" y2="12" />
+            <line x1="5.1" y1="5.1" x2="6.8" y2="6.8" /><line x1="17.2" y1="17.2" x2="18.9" y2="18.9" />
+            <line x1="18.9" y1="5.1" x2="17.2" y2="6.8" /><line x1="6.8" y1="17.2" x2="5.1" y2="18.9" />
+          </g>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+          <path d="M20 14.2A8 8 0 1 1 9.8 4 6.4 6.4 0 0 0 20 14.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow reveal">
+            <span class="dot" aria-hidden="true"></span>
+            Lima, Peru &nbsp;·&nbsp; Tulane University
+          </p>
+          <h1 class="hero-name reveal" id="hero-name">Dionisio Romero</h1>
+          <p class="hero-tagline reveal">
+            Finance professional turning complex, detail-heavy problems into
+            <em>clear, confident decisions.</em>
+          </p>
+          <p class="hero-lead reveal">
+            I'm doing two things at once: finishing my B.S. in Finance at Tulane and
+            working full-time as a financial analyst in aviation — earning steadily greater
+            responsibility in under two years.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="#experience">View experience</a>
+          </div>
+        </div>
+
+        <!-- Monogram medallion. To use a photo instead, replace the .hero-medallion
+             block with: <img class="hero-photo" src="assets/portrait.jpg"
+             alt="Portrait of Dionisio Romero" width="320" height="380" /> -->
+        <div class="hero-aside reveal" aria-hidden="true">
+          <div class="hero-medallion">
+            <span class="hero-monogram">DR</span>
+            <span class="hero-medallion-ring"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">01</span> About</p>
+          <h2 class="section-title" id="about-title">A calm, thorough hand on detail-heavy work.</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-body reveal">
+            <p>
+              My experience runs across operations, treasury, accounting, and an ERP
+              migration — the practical core of how a company actually runs its money. At
+              Aero Transporte (ATSA) I moved from an operations role into a financial-analyst
+              role, and now lead a feasibility study for a new business line.
+            </p>
+            <p>
+              I'm bilingual, proactive, and most at home owning complex work from start to
+              finish — the kind of problem that rewards patience, structure, and a careful eye.
+            </p>
+          </div>
+
+          <ul class="about-facts reveal" aria-label="Quick facts">
+            <li>
+              <span class="fact-num">2+ yrs</span>
+              <span class="fact-label">in finance &amp; operations</span>
+            </li>
+            <li>
+              <span class="fact-num">4 domains</span>
+              <span class="fact-label">operations · treasury · accounting · ERP</span>
+            </li>
+            <li>
+              <span class="fact-num">2</span>
+              <span class="fact-label">languages — Spanish &amp; English</span>
+            </li>
+            <li>
+              <span class="fact-num">2026</span>
+              <span class="fact-label">B.S. Finance, Tulane (expected)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">02</span> Experience</p>
+          <h2 class="section-title" id="experience-title">Growing responsibility, role by role.</h2>
+        </header>
+
+        <div class="timeline">
+          <!-- ATSA — centerpiece, two roles showing the promotion -->
+          <article class="xp xp-feature reveal">
+            <div class="xp-head">
+              <div>
+                <h3 class="xp-company">Aero Transporte S.A. <span class="xp-abbr">(ATSA)</span></h3>
+                <p class="xp-meta">National airline &amp; aviation services group — scheduled airline, FBO, charter, cargo, and contract flight operations · Lima, Peru</p>
+              </div>
+              <span class="badge badge-accent">Current employer</span>
+            </div>
+
+            <ol class="xp-roles">
+              <li class="role">
+                <div class="role-head">
+                  <h4 class="role-title">Financial Analyst <span class="role-dept">· Finance Department</span></h4>
+                  <span class="role-dates">Feb 2025 – Present</span>
+                </div>
+                <ul class="role-points">
+                  <li>Lead a strategic feasibility study for a prospective new business line — evaluating third-party proposals and commissioning an independent market study to assess its commercial viability.</li>
+                  <li>Audit the company's most significant general-ledger accounts end to end after identifying systematic errors in accounting entries; detect, document, and correct misstatements to improve the accuracy and reliability of financial records.</li>
+                  <li>Managed company cash flow using a forecasting model built in Excel to project upcoming revenues and expenses, directing cash balances toward the highest-priority obligations.</li>
+                  <li>Participated in the company-wide ERP migration from SAP R/3 to SAP Business One — contributing input across planning and implementation meetings, and building working familiarity with both systems.</li>
+                </ul>
+              </li>
+
+              <li class="role-progression" aria-hidden="true">
+                <span class="role-progression-line"></span>
+                <span class="role-progression-label">Promoted</span>
+              </li>
+
+              <li class="role">
+                <div class="role-head">
+                  <h4 class="role-title">Operations Analyst</h4>
+                  <span class="role-dates">Mar 2024 – Feb 2025</span>
+                </div>
+                <ul class="role-points">
+                  <li>Audited daily flight documentation across all business lines to verify completeness and compliance with civil aviation regulations.</li>
+                  <li>Prepared and submitted monthly, quarterly, and annual flight-activity reports to aviation regulatory authorities.</li>
+                  <li>Developed a working understanding of airline operations across the company's scheduled, FBO, charter, cargo, and mining-sector contract flight services.</li>
+                </ul>
+              </li>
+            </ol>
+          </article>
+
+          <!-- GRIO -->
+          <article class="xp reveal">
+            <div class="xp-head">
+              <div>
+                <h3 class="xp-company">Grupo Romero Investment Offices <span class="xp-abbr">(GRIO)</span></h3>
+                <p class="xp-meta">Family-office investment group · Lima, Peru</p>
+              </div>
+            </div>
+            <ol class="xp-roles">
+              <li class="role">
+                <div class="role-head">
+                  <h4 class="role-title">Investment Analysis Intern</h4>
+                  <span class="role-dates">2018</span>
+                </div>
+                <ul class="role-points">
+                  <li>Conducted a highest-and-best-use analysis on an undeveloped parcel held by an agricultural estate within GRIO's portfolio, weighing the value of selling the land as-is against developing it for crop cultivation.</li>
+                  <li>Recommended the most valuable use of the land after evaluating candidate crops against the estate's existing avocado and tangerine operations.</li>
+                </ul>
+              </li>
+              <li class="role">
+                <div class="role-head">
+                  <h4 class="role-title">Human Resources Intern <span class="role-dept">· Job Shadow</span></h4>
+                  <span class="role-dates">2022</span>
+                </div>
+                <ul class="role-points">
+                  <li>Shadowed the Head of Human Resources, gaining exposure to HR leadership and day-to-day people-management decisions.</li>
+                </ul>
+              </li>
+            </ol>
+          </article>
+
+          <!-- Alicorp -->
+          <article class="xp reveal">
+            <div class="xp-head">
+              <div>
+                <h3 class="xp-company">Alicorp</h3>
+                <p class="xp-meta">Leading consumer-goods company · Lima, Peru</p>
+              </div>
+            </div>
+            <ol class="xp-roles">
+              <li class="role">
+                <div class="role-head">
+                  <h4 class="role-title">Pre-Professional Intern <span class="role-dept">· Human Resources (Business Partners)</span></h4>
+                  <span class="role-dates">2019</span>
+                </div>
+                <ul class="role-points">
+                  <li>Observed candidate interviews alongside the HR Business Partners and reviewed each afterward with the team, building familiarity with how hiring decisions are evaluated.</li>
+                  <li>Prepared presentation decks and supporting reports for the HR Business Partners team.</li>
+                </ul>
+              </li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SELECTED HIGHLIGHTS ============ -->
+    <section class="section" id="highlights" aria-labelledby="highlights-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">03</span> Selected Highlights</p>
+          <h2 class="section-title" id="highlights-title">Work I'm proud to put my name on.</h2>
+        </header>
+
+        <div class="highlights-grid">
+          <article class="highlight reveal">
+            <span class="highlight-index" aria-hidden="true">01</span>
+            <p class="highlight-tag">Accounting · Controls</p>
+            <h3 class="highlight-title">General-ledger remediation</h3>
+            <p class="highlight-desc">
+              Spotted systematic errors in the company's accounting entries, then audited
+              its most significant general-ledger accounts end to end — detecting,
+              documenting, and correcting misstatements to restore the accuracy and
+              reliability of the financial records.
+            </p>
+            <p class="highlight-context">ATSA · Financial Analyst</p>
+          </article>
+
+          <article class="highlight reveal">
+            <span class="highlight-index" aria-hidden="true">02</span>
+            <p class="highlight-tag">Strategy · New business line</p>
+            <h3 class="highlight-title">New business-line feasibility study</h3>
+            <p class="highlight-desc">
+              Leading a strategic feasibility study to assess whether the company should
+              launch a new business line — evaluating third-party proposals, commissioning an
+              independent market study, and weighing commercial viability to guide the decision.
+            </p>
+            <p class="highlight-context">ATSA · Financial Analyst · Ongoing</p>
+          </article>
+
+          <article class="highlight reveal">
+            <span class="highlight-index" aria-hidden="true">03</span>
+            <p class="highlight-tag">Real assets · Valuation</p>
+            <h3 class="highlight-title">Highest-and-best-use land analysis</h3>
+            <p class="highlight-desc">
+              Analyzed an undeveloped parcel held by an agricultural estate — weighing a sale
+              as-is against developing it for crops, and recommending the most valuable use
+              after testing candidate crops against existing avocado and tangerine operations.
+            </p>
+            <p class="highlight-context">GRIO · Investment Analysis Intern · 2018</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">04</span> Education</p>
+          <h2 class="section-title" id="education-title">Foundations.</h2>
+        </header>
+
+        <div class="edu-grid">
+          <article class="edu reveal">
+            <div class="edu-when">Expected July 2026</div>
+            <h3 class="edu-degree">B.S. in Finance</h3>
+            <p class="edu-school">A. B. Freeman School of Business, Tulane University</p>
+            <p class="edu-place">New Orleans, LA</p>
+          </article>
+
+          <article class="edu reveal">
+            <div class="edu-when">2017</div>
+            <h3 class="edu-degree">International Baccalaureate Diploma</h3>
+            <p class="edu-school">Colegio Franklin Delano Roosevelt (FDR)</p>
+            <p class="edu-place">Lima, Peru</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS & LANGUAGES ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">05</span> Skills &amp; Languages</p>
+          <h2 class="section-title" id="skills-title">The toolkit.</h2>
+        </header>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3 class="skill-heading">Finance</h3>
+            <ul class="tag-list">
+              <li>Financial modeling</li>
+              <li>Cash-flow forecasting</li>
+              <li>General-ledger reconciliation</li>
+              <li>Financial &amp; regulatory reporting</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-heading">Systems</h3>
+            <ul class="tag-list">
+              <li>SAP Business One</li>
+              <li>SAP R/3</li>
+              <li>Excel (advanced)</li>
+              <li>Word</li>
+              <li>PowerPoint</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-heading">Strengths</h3>
+            <ul class="tag-list">
+              <li>Analytical problem-solving</li>
+              <li>Attention to detail</li>
+              <li>Ownership of complex projects</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-heading">Languages</h3>
+            <ul class="lang-list">
+              <li>
+                <span class="lang-name">Spanish</span>
+                <span class="lang-level">Native</span>
+              </li>
+              <li>
+                <span class="lang-name">English</span>
+                <span class="lang-level">C1 · Professional working proficiency</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VOLUNTEER & COMMUNITY ============ -->
+    <section class="section section-alt" id="community" aria-labelledby="community-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">06</span> Volunteer &amp; Community</p>
+          <h2 class="section-title" id="community-title">Work that matters beyond the balance sheet.</h2>
+        </header>
+
+        <div class="community-grid">
+          <article class="community reveal">
+            <h3 class="community-title">Vitamina O — Cocina Solidaria</h3>
+            <p class="community-meta">Pamplona Alta, Lima · 2020 – 2022</p>
+            <p class="community-desc">
+              Helped launch the first community kitchen in Pamplona Alta, providing healthy,
+              sustainable meals to an underserved community.
+            </p>
+          </article>
+
+          <article class="community reveal">
+            <h3 class="community-title">Fugaz — Callao Monumental</h3>
+            <p class="community-meta">Callao, Lima · 2016 – 2017</p>
+            <p class="community-desc">
+              As part of a student group, tutored local children in mathematics, art, and
+              language.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-num">07</span> Contact</p>
+          <h2 class="section-title" id="contact-title">Let's talk.</h2>
+        </header>
+
+        <div class="contact-inner reveal">
+          <p class="contact-lead">
+            I'm always glad to discuss finance roles, internships, or a problem you'd like a
+            careful pair of hands on. The best way to reach me is email.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:dromero1@tulane.edu">Email me</a>
+          </div>
+
+          <dl class="contact-details">
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:dromero1@tulane.edu">dromero1@tulane.edu</a></dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Lima, Peru</dd>
+            </div>
+            <div>
+              <dt>Studying at</dt>
+              <dd>Tulane University, New Orleans</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Dionisio Romero</p>
+      <p class="footer-note">
+        © <span id="year">2026</span> Dionisio Romero. Built with care — no templates.
+      </p>
+      <a class="footer-top" href="#top" aria-label="Back to top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

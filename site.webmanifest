@@ -1,0 +1,14 @@
+{
+  "name": "Dionisio Romero — Finance Professional",
+  "short_name": "D. Romero",
+  "description": "Portfolio of Dionisio Romero, finance professional and Tulane B.S. in Finance candidate.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#1f6f54",
+  "icons": [
+    { "src": "assets/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "assets/apple-touch-icon.png", "type": "image/png", "sizes": "180x180", "purpose": "any maskable" }
+  ]
+}
