@@ -891,3 +891,26 @@ em { font-style: italic; }
   }
   .js .reveal { opacity: 1 !important; transform: none !important; }
 }
+
+/* ---------- Print (clean output if a recruiter prints the page) ---------- */
+@media print {
+  :root {
+    --bg: #fff; --bg-elevated: #fff; --bg-alt: #fff;
+    --ink: #111; --ink-soft: #222; --muted: #444;
+    --line: #ccc; --line-strong: #999;
+  }
+  body { background: #fff; color: #111; }
+  body::before { display: none; }
+  .site-header, .nav-toggle, .theme-toggle, .skip-link,
+  .hero-actions, .contact-actions, .footer-top, .hero-aside { display: none !important; }
+  a { color: #111; text-decoration: underline; }
+  .section { padding-block: 1.25rem; }
+  .js .reveal { opacity: 1 !important; transform: none !important; }
+  .xp, .highlight, .edu, .community, .contact-inner, .about-facts {
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .site-footer { border-top: 1px solid #ccc; }
+}
